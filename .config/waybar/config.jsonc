@@ -1,0 +1,51 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["sway/workspaces", "sway/mode"],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "keyboard-state",
+    "network",
+    "pulseaudio",
+    "battery",
+    "tray",
+    "custom/screenshot",
+    "custom/power"
+  ],
+
+  "cpu": {
+    "interval": 2,
+    "format": " {usage}%",
+    "tooltip": false
+  },
+
+  "memory": {
+    "interval": 5,
+    "format": " {used:0.1f}G/{total:0.1f}G",
+    "tooltip": false
+  },
+
+  "keyboard-state": {
+    "numlock": true,
+    "capslock": true,
+    "format": "{icon} {layout}",
+    "format-icons": {
+      "us": "",
+      "ar": ""
+    }
+  },
+
+  "custom/screenshot": {
+    "format": "",
+    "tooltip": "Screenshot",
+    "on-click": "~/sway-aether-lite/screenshot.sh"
+  },
+
+  "custom/power": {
+    "format": "",
+    "tooltip": "Power Menu",
+    "on-click": "~/sway-aether-lite/powermenu.sh"
+  }
+}
