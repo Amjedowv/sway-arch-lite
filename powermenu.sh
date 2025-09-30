@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 choice=$(printf " Lock\n󰍃 Logout\n Reboot\n Shutdown" | \
