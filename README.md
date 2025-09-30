@@ -22,7 +22,7 @@ but built for **minimal Arch installs** and optimized for **low-RAM laptops (8GB
 Clone and install in **Arch minimal**:
 
 ```bash
-git clone https://github.com/YOURNAME/sway-aether-lite
+git clone https://github.com/Amjedowv/sway-aether-lite
 cd sway-aether-lite
 chmod +x install.sh
 ./install.sh
