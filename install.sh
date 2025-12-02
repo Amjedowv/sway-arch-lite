@@ -14,7 +14,7 @@ echo "[2/6] Removing Debian wlroots…"
 sudo apt remove -y wlroots-dev || true
 
 echo "[3/6] Installing wlroots (SceneFX fork)…"
-git clone https://github.com/wlrfx/wlroots.git --depth=1
+https://github.com/wlrfx/scenefx.git --depth=1
 cd wlroots
 git checkout scenefx-0.4.0
 meson setup build --prefix=/usr
